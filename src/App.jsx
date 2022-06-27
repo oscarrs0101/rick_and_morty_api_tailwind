@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import CharacterList from './components/CharacterList';
 import Character from './components/Character';
-import Carrousel from './components/Carrousel';
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">asdasd</h1>
-      <Carrousel />
+      <h1 className="text-5xl font-bold underline text-center mt-4 p-2">
+        Rick And Morty API with Daisy UI+tailwind css
+      </h1>
       <CharacterList />
     </div>
   );
